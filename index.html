@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./java.css">
+    <link rel="stylesheet" href="fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class = "header">
+        <div class = "banner">
+            <a href="./index.html">
+                <img src="./AnhLogo.png" alt="GREEN LANI ACADEMY">
+            </a>
+        </div>
+        <div class="menu-container">
+            <div class="Noidung-phu ">
+                <a  href="./index.html"><i class="ti-home"></i></a>
+            </div>
+            <div class = "Noidung-phu ">
+                <a href="./introduce.html">GIỚI THIỆU</a>
+                <div class = "Noidung-mini ">
+                <a href="./introduce_(TĐ).html">THÔNG ĐIỆP TỪ NHÀ SÁNG TẠO</a>
+                <a href="./introduce_(TNVSM).html">TẦM NHÌN VÀ SỨ MỆNH</a>
+                <a href="./introduce_(TNVSM).html">MỤC TIÊU GIÁO DỤC</a>
+                </div>
+            </div>
+            <div class = "Noidung-phu ">
+                <a href="./overview.html">TỔNG QUAN</a>
+                <div class = "Noidung-mini ">
+                    <div><a href="./PPGD.html">PHƯƠNG PHÁP GIÁO DỤC</a></div>
+                    <div><a href="#">KHÔNG GIAN TRƯỜNG HỌC</a></div>
+                    <div><a href="#">CƠ SỞ VẬT CHẤT</a></div>
+                </div>
+            </div>   
+            <div class = "Noidung-phu ">                        
+                <a href="./program.html">CHƯƠNG TRÌNH</a>
+                <div class = "Noidung-mini ">
+                    <div><a href="#">CHÍNH KHÓA</a></div>
+                    <div><a href="#">KĨ NĂNG</a></div>
+                    <div><a href="#">NGOẠI KHÓA</a></div>
+                </div>
+            </div>
+            <div class = "Noidung-phu ">                        
+                <a href="./contact.html">LIÊN HỆ</a>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="slideshow swiper" data-option="loop:true,">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./Hinh1.png" alt=""></div>
+            <div class="swiper-slide"><img src="./Hinh2.png" alt=""></div>
+            <div class="swiper-slide"><img src="./Hinh3.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"><i class="ti-arrow-left"></i></div>
+            <div class="swiper-button-next"><i class="ti-arrow-right"></i></div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            new Swiper('.slideshow', {
+                loop: true,
+                speed: 2000,
+                autoplay: {
+                delay: 5000,
+                },
+                spaceBetween: 3,	
+                pagination: {
+                el: '.swiper-pagination',
+                },
+
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+    </script>
+        <div class="overview wrapper">
+            <div class="text-center">
+                <a href="./overview.html">
+                    <span class="title">tổng quan</span>
+                </a>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="./PPGD.html" class="swiper-slide-pic"><img src="./Hinh4.png" alt=""></a>
+                        <div class="PCT">
+                            <a class="item-title" href="./PPGD.html">Phương pháp giáo dục</a>
+                            <div class="item-description" href="./PPGD.html">[hiển thị trang CHỦ, TỔNG QUAN, PHƯƠNG PHÁP GIÁO DỤC] Apple Inc has decided to launch the much awaited Apple Watch in the upcoming month of April and has already received around five to six million orders for the product. Analysts have expected this product of the company to bring a positive change in the future revenue generation of the company.</div>
+                            <a href="./PPGD.html">
+                                <div class="item-viewmore">
+                                    <i class="ti-angle-double-right">Xem thêm</i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"  class="swiper-slide-pic"><img src="./Hinh1.png" alt=""></a>
+                        <div class="PCT">
+                            <a class="item-title" href="#">Không gian trường</a>
+                            <div class="item-description" href="#">[hiển thị trang CHỦ và TỔNG QUAN] Apple Inc has decided to launch the much awaited Apple Watch in the upcoming month of April and has already received around five to six million orders for the product. Analysts have expected this product of the company to bring a positive change in the future revenue generation of the company.</div>
+                            <a href="#">
+                                <div class="item-viewmore">
+                                    <i class="ti-angle-double-right">Xem thêm</i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"  class="swiper-slide-pic"><img src="./Hinh5.png" alt=""></a>
+                        <div class="PCT">
+                            <a class="item-title" href="#">Cơ sở vật chất</a>
+                            <div class="item-description" href="#">[hiển thị trang CHỦ và TỔNG QUAN] Apple Inc has decided to launch the much awaited Apple Watch in the upcoming month of April and has already received around five to six million orders for the product. Analysts have expected this product of the company to bring a positive change in the future revenue generation of the company.</div>
+                            <a href="#">
+                                <div class="item-viewmore">
+                                    <i class="ti-angle-double-right">Xem thêm</i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"><i class="ti-arrow-left"></i></div>
+                <div class="swiper-button-next"><i class="ti-arrow-right"></i></div>
+            </div>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    new Swiper('.mySwiper', {
+                        loop: true,
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                    });
+                });
+            </script>
+        </div>
+        <div class="service">
+            <img src="./BG Home 1.png" alt="">
+            <div class="service-container wrapper">
+                <div class="service-left">
+                    <a href="./program.html">
+                        <span class="service-title">chương trình giảng dạy</span>
+                    </a>
+                    <div class="service-description">hiển thị TRANG CHỦ, CHƯƠNG TRÌNH</div>
+                </div>
+                <div class="service-right">
+                    <div class="swiper myService">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="item-thumb">
+                                    <img src="./Book.svg" alt="">
+                                </div>
+                                <div class="PCT">
+                                    <a class="item-title" href="#">chính khóa</a>
+                                    <a href="#">
+                                        <div class="item-viewmore">
+                                            <i class="ti-angle-double-right">Xem thêm</i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-thumb">
+                                    <img src="./BongDen.svg" alt="">
+                                </div>
+                                <div class="PCT">
+                                    <a class="item-title" href="#">kĩ năng</a>
+                                    <a href="#">
+                                        <div class="item-viewmore">
+                                            <i class="ti-angle-double-right">Xem thêm</i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item-thumb">
+                                    <img src="./TenLua.svg" alt="">
+                                </div>
+                                <div class="PCT">
+                                    <a class="item-title" href="#">ngoại khóa</a>
+                                    <a href="#">
+                                        <div class="item-viewmore">
+                                            <i class="ti-angle-double-right">Xem thêm</i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"><i class="ti-arrow-left"></i></div>
+                        <div class="swiper-button-next"><i class="ti-arrow-right"></i></div>
+                    </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", () => {
+                            new Swiper('.myService', {
+                                loop: true,
+                                slidesPerView: 3,
+                                spaceBetween: 30,
+                                navigation: {
+                                    nextEl: '.swiper-button-next',
+                                    prevEl: '.swiper-button-prev',
+                                },
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="gallery ">
+            <div class="gallery-text-center">
+                <a href="#" class="text-center">Thư viện ảnh</a>
+            </div>
+            <div class="gallery-container wrapper">
+                <div class="gallery-left">
+                    <a href="#"><img src="./gallery.png" alt=""></a>
+                </div>
+                <div class="gallery-right">
+                    <div class="first-tag">
+                        Hình ảnh
+                        <br>
+                        hoạt động
+                        <br>
+                        ngoại khóa 2023
+                    </div>
+                    <div class="second-tag">
+                        When asked, “If you could wish for one thing only,
+                        <br>
+                        what would that wish be?” almost everyone; from
+                        <br>
+                        beauty pagent contestants, to politicians,
+                    </div>
+                    <a href="#">
+                        <div class="item-viewmore">
+                            <i class="ti-angle-double-right">Xem thêm</i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="story">
+            <div class="story-img-main"><img src="./BG Home 2.png" alt=""></div>
+            <a href="#">
+                <div class="story-title">Câu chuyện của chúng tôi</div>
+            </a>
+            <div class="story-main MyStory swiper wrapper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a class="story-img" href="#"><img src="./Story1.png" alt=""></a>
+                        <div class="item-title">
+                            <a href="#">Môi trường học tập lý tưởng</a>
+                        </div>
+                        <div class="item-body">
+                            <div class="details">Apple Inc has decided to launch the much awaited Apple Watch in the upcoming month of April and has already received around five to six million orders for the product.</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-body">
+                            <div class="details">Apple Inc has decided to launch the much awaited Apple Watch in the upcoming month of April and has already received around five to six million orders for the product.</div>
+                        </div>
+                        <a class="story-img" href="#"><img src="./Story1.png" alt=""></a>
+                        <div class="item-title">
+                            <a href="#">Tieu De 2</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a class="story-img" href="#"><img src="./Story1.png" alt=""></a>
+                        <div class="item-title">
+                            <a href="#">Tieu De 3</a>
+                        </div>
+                        <div class="item-body">
+                            <div class="details">Apple Inc has decided to launch the much awaited Apple Watch in the upcoming month of April and has already received around five to six million orders for the product.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"><i class="ti-arrow-left"></i></div>
+                <div class="swiper-button-next"><i class="ti-arrow-right"></i></div>
+            </div>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    new Swiper('.MyStory', {
+                        loop: true,
+                        slidesPerView : 3,  
+                        speed: 2000,
+                        autoplay: {
+                        delay: 5000,
+                        },
+                        spaceBetween: 3,	
+                        pagination: {
+                        el: '.swiper-pagination',
+                        },
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                    });
+                });
+            </script>
+        </div>
+        <div class="footer wrapper">
+            <div class="container">
+                <div class="footer-container">
+                    <a href="#"><img src="https://demo.nanotechco.vn/education/upload/image/Page%201.png" alt=""></a>
+                    <div class="menu-container">
+                        <div class="title"><a href="./introduce.html">Giới Thiệu</a></div>
+                        <div class="title"><a href="./overview.html">Tổng Quan</a></div>
+                        <div class="title"><a href="./program.html">Chương Trình</a></div>
+                        <div class="title"><a href="#">Tin Tức</a></div>
+                        <div class="title"><a href="#">Tuyển Dụng</a></div>
+                        <div class="title"><a href="./contact.html">Liên Hệ</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copyright-container">
+                    Copyright Green Lani 2008
+                </div>
+                <div class="social-container">
+                    <a href=""><img src="https://demo.nanotechco.vn/education/upload/image/twitter.png" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=100010024020372"><img src="https://demo.nanotechco.vn/education/upload/image/facebook.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

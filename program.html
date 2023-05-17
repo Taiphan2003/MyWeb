@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chương Trình</title>
+    <link rel="stylesheet" href="./java.css">
+    <link rel="stylesheet" href="fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-program">
+        <div class = "header">
+            <div class = "banner">
+                <a href="./index.html">
+                    <img src="./AnhLogo.png" alt="GREEN LANI ACADEMY">
+                </a>
+            </div>
+            <div class="menu-container">
+                <div class="Noidung-phu ">
+                    <a  href="./index.html"><i class="ti-home"></i></a>
+                </div>
+                <div class = "Noidung-phu ">
+                    <a href="./introduce.html">GIỚI THIỆU</a>
+                    <div class = "Noidung-mini ">
+                    <a href="./introduce_(TĐ).html">THÔNG ĐIỆP TỪ NHÀ SÁNG TẠO</a>
+                    <a href="./introduce_(TNVSM).html">TẦM NHÌN VÀ SỨ MỆNH</a>
+                    <a href="#">MỤC TIÊU GIÁO DỤC</a>
+                    </div>
+                </div>
+                <div class = "Noidung-phu ">
+                    <a href="#">TỔNG QUAN</a>
+                    <div class = "Noidung-mini ">
+                        <div><a href="#">PHƯƠNG PHÁP GIÁO DỤC</a></div>
+                        <div><a href="#">KHÔNG GIAN TRƯỜNG HỌC</a></div>
+                        <div><a href="#">CƠ SỞ VẬT CHẤT</a></div>
+                    </div>
+                </div>   
+                <div class = "Noidung-phu ">                        
+                    <a href="#">CHƯƠNG TRÌNH</a>
+                    <div class = "Noidung-mini ">
+                        <div><a href="#">CHÍNH KHÓA</a></div>
+                        <div><a href="#">KĨ NĂNG</a></div>
+                        <div><a href="#">NGOẠI KHÓA</a></div>
+                    </div>
+                </div>
+                <div class = "Noidung-phu ">                        
+                    <a href="#">LIÊN HỆ</a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="slideshow swiper" data-option="loop:true,">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./Hinh1.png" alt=""></div>
+                <div class="swiper-slide"><img src="./Hinh2.png" alt=""></div>
+                <div class="swiper-slide"><img src="./Hinh3.png" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"><i class="ti-arrow-left"></i></div>
+                <div class="swiper-button-next"><i class="ti-arrow-right"></i></div>
+            </div>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                new Swiper('.slideshow', {
+                    loop: true,
+                    speed: 2000,
+                    autoplay: {
+                    delay: 5000,
+                    },
+                    spaceBetween: 3,	
+                    pagination: {
+                    el: '.swiper-pagination',
+                    },
+
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            });
+        </script> 
+        <div class="program wrapper">
+            <div class="center">
+                <div class="container">
+                    <div class="main-container">
+                    <h2>Chương trình</h2>
+                    <p>
+                        Mô tả chương trình    
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="" class="swiper-slide-pic"><img src="./BongDen.svg" alt=""></a>
+                        <div class="PCT">
+                            <a class="item-title" href="">
+                                Chính khóa
+                            </a>
+                            <div class="item-description" href="">Mô tả Chính khóa</div>
+                            <a href="#">
+                                <div class="item-viewmore">
+                                    <i class="ti-angle-double-right">Xem thêm</i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="" class="swiper-slide-pic"><img src="./Book.svg" alt=""></a>
+                        <div class="PCT">
+                            <a class="item-title" href="#">Kĩ năng</a>
+                            <div class="item-description" href="#">Mô tả Kĩ năng</div>
+                            <a href="#">
+                                <div class="item-viewmore">
+                                    <i class="ti-angle-double-right">Xem thêm</i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="" class="swiper-slide-pic"><img src="./TenLua.svg" alt=""></a>
+                        <div class="PCT">
+                            <a class="item-title" href="#">Ngoại khóa</a>
+                            <div class="item-description" href="#">Mô tả Ngoại khóa</div>
+                            <a href="#">
+                                <div class="item-viewmore">
+                                    <i class="ti-angle-double-right">Xem thêm</i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"><i class="ti-arrow-left"></i></div>
+                <div class="swiper-button-next"><i class="ti-arrow-right"></i></div>
+            </div>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    new Swiper('.mySwiper', {
+                        loop: true,
+                        speed: 2000,
+                        autoplay: {
+                            delay: 3000,
+                        },
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                    });
+                });
+            </script>
+            <div class="center">
+                <div class="container">
+                    <div class="main-container">
+                        <h2>không gian trường</h2>
+                        <p>
+                            "Không hạm trưởng nào của tàu chiến Trung Quốc có thể tự ý cho tàu áp sát khu trục hạm Decatur ở khoảng cách 41 mét mà không có lệnh từ cấp trên", Bonnie Glaser, chuyên gia về Trung Quốc tại Trung tâm Nghiên cứu Chiến lược và Quốc tế (CSIS), nói. "Khó có khả năng sự kiện này xảy ra mà không có sự phê chuẩn từ cấp cao nhất, đó là Chủ tịch Tập Cận Bình".			
+                        </p>
+                    </div>
+                    <div class="center-pic">
+                        <img src="https://demo.nanotechco.vn/education/upload/image/Rectangle%2027.png"  alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="overview-block">
+                <div class="center">
+                    <div class="container">
+                        <div class="main-container">
+                            <h2>Cơ sở vật chất</h2>
+                            <p>
+                                "Không hạm trưởng nào của tàu chiến Trung Quốc có thể tự ý cho tàu áp sát khu trục hạm Decatur ở khoảng cách 41 mét mà không có lệnh từ cấp trên", Bonnie Glaser, chuyên gia về Trung Quốc tại Trung tâm Nghiên cứu Chiến lược và Quốc tế (CSIS), nói. "Khó có khả năng sự kiện này xảy ra mà không có sự phê chuẩn từ cấp cao nhất, đó là Chủ tịch Tập Cận Bình".			
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-galerry">
+                    <div class="row two-col">
+                        <div class="col-md-6 col-1">
+                            <div class="row two-col">
+                                <div class="col-md-6 col-1">
+                                    <p><img src="https://demo.nanotechco.vn/education/upload/post/image%201.png" alt=""></p>
+                                </div>
+                                <div class="col-md-6 col-2">
+                                    <p><img src="https://demo.nanotechco.vn/education/upload/post/image%201.png" alt=""></p>
+                                </div>
+                            </div>
+                            <img src="https://demo.nanotechco.vn/education/upload/post/image%204.png" alt="">
+                        </div>
+                        <div class="col-md-6 col-2">
+                            <img src="https://demo.nanotechco.vn/education/upload/post/image%203.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer wrapper">
+            <div class="container">
+                <div class="footer-container">
+                    <a href="#"><img src="https://demo.nanotechco.vn/education/upload/image/Page%201.png" alt=""></a>
+                    <div class="menu-container">
+                        <div class="title"><a href="./introduce.html">Giới Thiệu</a></div>
+                        <div class="title"><a href="./overview.html">Tổng Quan</a></div>
+                        <div class="title"><a href="./program.html">Chương Trình</a></div>
+                        <div class="title"><a href="#">Tin Tức</a></div>
+                        <div class="title"><a href="#">Tuyển Dụng</a></div>
+                        <div class="title"><a href="./contact.html">Liên Hệ</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copyright-container">
+                    Copyright Green Lani 2008
+                </div>
+                <div class="social-container">
+                    <a href=""><img src="https://demo.nanotechco.vn/education/upload/image/twitter.png" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=100010024020372"><img src="https://demo.nanotechco.vn/education/upload/image/facebook.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

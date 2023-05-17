@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="./java.css">
+    <link rel="stylesheet" href="fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contact">
+        <div class = "header">
+            <div class = "banner">
+                <a href="./index.html">
+                    <img src="./AnhLogo.png" alt="GREEN LANI ACADEMY">
+                </a>
+            </div>
+            <div class="menu-container">
+                <div class="Noidung-phu ">
+                    <a  href="./index.html"><i class="ti-home"></i></a>
+                </div>
+                <div class = "Noidung-phu ">
+                    <a href="./introduce.html">GIỚI THIỆU</a>
+                    <div class = "Noidung-mini ">
+                    <a href="./introduce_(TĐ).html">THÔNG ĐIỆP TỪ NHÀ SÁNG TẠO</a>
+                    <a href="./introduce_(TNVSM).html">TẦM NHÌN VÀ SỨ MỆNH</a>
+                    <a href="#">MỤC TIÊU GIÁO DỤC</a>
+                    </div>
+                </div>
+                <div class = "Noidung-phu ">
+                    <a href="./overview.html">TỔNG QUAN</a>
+                    <div class = "Noidung-mini ">
+                        <div><a href="./PPGD.html">PHƯƠNG PHÁP GIÁO DỤC</a></div>
+                        <div><a href="#">KHÔNG GIAN TRƯỜNG HỌC</a></div>
+                        <div><a href="#">CƠ SỞ VẬT CHẤT</a></div>
+                    </div>
+                </div>   
+                <div class = "Noidung-phu ">                        
+                    <a href="./program.html">CHƯƠNG TRÌNH</a>
+                    <div class = "Noidung-mini ">
+                        <div><a href="#">CHÍNH KHÓA</a></div>
+                        <div><a href="#">KĨ NĂNG</a></div>
+                        <div><a href="#">NGOẠI KHÓA</a></div>
+                    </div>
+                </div>
+                <div class = "Noidung-phu ">                        
+                    <a href="./contact.html">LIÊN HỆ</a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="slideshow swiper" data-option="loop:true,">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./Hinh1.png" alt=""></div>
+                <div class="swiper-slide"><img src="./Hinh2.png" alt=""></div>
+                <div class="swiper-slide"><img src="./Hinh3.png" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"><i class="ti-arrow-left"></i></div>
+                <div class="swiper-button-next"><i class="ti-arrow-right"></i></div>
+            </div>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                new Swiper('.slideshow', {
+                    loop: true,
+                    speed: 2000,
+                    autoplay: {
+                    delay: 5000,
+                    },
+                    spaceBetween: 3,	
+                    pagination: {
+                    el: '.swiper-pagination',
+                    },
+
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            });
+        </script>
+        <div class="center">
+            <div class="container">
+                <div class="main-container">
+                    <h2>Liên hệ</h2>
+                    <p>
+                        Văn phòng chính: 594 Ba Tháng Hai, Phường 14, Quận 10 <br>
+                        Điện thoại: (028) 38 687576 Fax: (028) 38 687578<br>
+                        Hotline: 0911267755<br>
+                        Email: info@greenlani.edu.vn
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <form action class="row gy-2 gx-3 align-items-center" method="post" >
+                <div class="col-md-4 ">
+                    
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Họ và Tên(*)">
+                  </div>
+                  <div class="col-md-4">
+                    <input type="number" class="form-control" id="inputPassword4" placeholder="Số điện thoại(*)">
+                  </div>
+                  <div class="col-md-4">
+                  <input type="email" class="form-control" id="inputPassword4" placeholder="Email(*)">
+                </div>
+                <div class="col-md-6">
+                    <textarea col="30" placeholder="Nội dung" class="form-control"></textarea>
+                  </div>
+                  <div class="col-md-4">
+                    <select id="inputState" class="form-control form-select">
+                      <option selected>Nội dung liên hệ</option>
+                      <option>Giải đáp thắc mắc</option>
+                      <option>Giải quyết khiếu nại</option>
+                    </select>
+                  </div>
+                  <div class="col-xs-12 text-center">
+                    <button type="submit" class="btn contact-button form-control">Gửi</button>
+                  </div>
+            </form>
+        </div>
+        <div class="onfooter wrapper">
+            <h3 class="onfooter-title wrapper">DIA CHI LIEN HE</h3>
+            <div class="onfooter-container wrapper">
+                <div class="address">
+                    <div class="block">
+                        <p class="tieude">VĂN PHÒNG PHÍA NAM</p>
+                        <p class="content">M.I.D Building <br>
+                            02 Nguyễn Thế Lộc, Phường 12, Q.Tân Bình, TP.HCM <br>
+                            +84 28 7306 6168 (Ext 1)
+                        </p>
+                    </div>
+                    <div class="block">
+                        <p class="tieude">VĂN PHÒNG PHÍA BẮC</p>
+                        <p class="content">C’land Tower <br>
+                            156 Xã Đàn 2, P.Nam Đồng, Q.Đống Đa, TP.Hà Nội <br>
+                            +84 28 7306 6168 (Ext 2)</p>
+                    </div>
+                    <div class="block">
+                        <p class="tieude">VĂN PHÒNG PHÍA NAM</p>
+                        <p class="content">Đường Phan Đăng Lưu - KCN Quốc Phòng <br>
+                            Phường Long Bình, TP.Biên Hoà, Đồng Nai <br>
+                            +84 28 7306 6168 (Ext 3)</p>
+                    </div>
+                    <div class="block">
+                        <p class="tieude">TRUNG TÂM PHÍA BẮC</p>
+                        <p class="content">Khu Công Nghiệp Phụng Châu <br>
+                            Lô 01, Xã Phụng Châu, Huyện Chương Mỹ, TP.Hà Nội <br>
+                            +84 28 7306 6168 (Ext 4)</p>
+                    </div>
+                    <div class="block">
+                        <p class="tieude">SHOWROOM DUBAI</p>
+                        <p class="content">Vchoice 55 <br>
+                            6A street, Al Quoz 3, Dubai, UAE <br>
+                            +97 143 468 816</p>
+                    </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2148.8951342861183!2d106.63211586923343!3d10.803641918629722!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752959d3cbfc29%3A0x65a9b6b70bd910cd!2zMTAgTMOqIFRy4buNbmcgVOG6pW4sIFTDonkgVGjhuqFuaCwgVMOibiBQaMO6LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1677876134527!5m2!1svi!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="footer wrapper">
+            <div class="container">
+                <div class="footer-container">
+                    <a href="#"><img src="https://demo.nanotechco.vn/education/upload/image/Page%201.png" alt=""></a>
+                    <div class="menu-container">
+                        <div class="title"><a href="./introduce.html">Giới Thiệu</a></div>
+                        <div class="title"><a href="./overview.html">Tổng Quan</a></div>
+                        <div class="title"><a href="./program.html">Chương Trình</a></div>
+                        <div class="title"><a href="#">Tin Tức</a></div>
+                        <div class="title"><a href="#">Tuyển Dụng</a></div>
+                        <div class="title"><a href="./contact.html">Liên Hệ</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copyright-container">
+                    Copyright Green Lani 2008
+                </div>
+                <div class="social-container">
+                    <a href=""><img src="https://demo.nanotechco.vn/education/upload/image/twitter.png" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=100010024020372"><img src="https://demo.nanotechco.vn/education/upload/image/facebook.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
